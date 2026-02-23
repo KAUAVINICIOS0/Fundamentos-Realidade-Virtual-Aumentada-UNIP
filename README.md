@@ -29,6 +29,7 @@ for(i = fin; i >= 0; i--){
     lts += i
 }
 ```
+## 📌 Fibonacci (recursivo)
 ```javascript
 function fibonacci(n){
     let lts = 0
@@ -44,6 +45,7 @@ let fin = parseInt(prompt('Digite o valor: '))
 
 console.log(fibonacci(fin))
 ```
+## 📌 Fatorial (Iterativo)
 ```javascript
 let fat = parseInt(prompt('Digite o fatorial desejado: '))
 let constante = 1
@@ -52,6 +54,7 @@ for(i = fat; i >= 1; i--){
     constante = constante * i
 }
 ```
+## 📌 Fatorial (Recursivo)
 ```javascript
 function factorial(n){
     let constante = 1
