@@ -4,10 +4,10 @@ Este repositório contém implementações de algoritmos matemáticos clássicos
 
 ## 📚 Algoritmos Implementados
 
-- 🔢 Fibonacci (Iterativo)
-- 🔁 Fibonacci (Recursivo)
-- ✖️ Fatorial (Iterativo)
-- 🔄 Fatorial (Recursivo)
+-  Fibonacci (Iterativo)
+-  Fibonacci (Recursivo)
+-  Fatorial (Iterativo)
+-  Fatorial (Recursivo)
 
 ---
 
@@ -24,22 +24,23 @@ Exemplo da sequência:
 let fin = parseInt(prompt('Digite o valor: '))
 let lts = 0
 
-for(i = fin; i >= 0; i--){
+for(i=fin; i>=0;i--){
+
     console.log(i)
-    lts += i
+
+    lts +=i
 }
+console.log(lts)
 ```
 ## 📌 Fibonacci (recursivo)
 ```javascript
 function fibonacci(n){
-    let lts = 0
 
-    for(i = n; i >= 0; i--){
-        lts += i
+    for(i=n; i>=0;i--){
+        lts +=i
     }
     return lts
 }
-
 let lts = 0
 let fin = parseInt(prompt('Digite o valor: '))
 
@@ -50,20 +51,23 @@ console.log(fibonacci(fin))
 let fat = parseInt(prompt('Digite o fatorial desejado: '))
 let constante = 1
 
-for(i = fat; i >= 1; i--){
+for( i=fat; i>=1; i--){
     constante = constante * i
 }
+
+console.log(constante)
 ```
 ## 📌 Fatorial (Recursivo)
 ```javascript
 function factorial(n){
     let constante = 1
 
-    for(i = n; i >= 1; i--){
+    for( i=n; i>=1; i--){
         constante = constante * i
     }
     return constante
 }
-
 let fat = parseInt(prompt('Digite o fatorial desejado: '))
+
+console.log(factorial(fat))
 ```
