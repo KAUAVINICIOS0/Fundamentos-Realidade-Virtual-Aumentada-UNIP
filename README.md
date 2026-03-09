@@ -1,8 +1,8 @@
-## Nome: Kauã Vinícios Cruz Bezerra
-## RA: G76JGG4
+Nome: Kauã Vinícios Cruz Bezerra
+RA: G76JGG4
 
-## Nome: Marina da Silva Arruda de Moraes
-## RA: F3573I8
+Nome: Marina da Silva Arruda de Moraes
+ RA: F3573I8
 
 ## 📌 Algoritmos Matemáticos em JavaScript (Node.js)
 
