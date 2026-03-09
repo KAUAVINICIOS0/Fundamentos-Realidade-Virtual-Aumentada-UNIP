@@ -1,3 +1,9 @@
+## Nome: Kauã Vinícios Cruz Bezerra
+## RA: G76JGG4
+
+## Nome: Marina da Silva Arruda de Moraes
+## RA: F3573I8
+
 ## 📌 Algoritmos Matemáticos em JavaScript (Node.js)
 
 Este repositório contém implementações de algoritmos matemáticos clássicos em **JavaScript (Node.js)**, com foco em **comparar versões iterativas e recursivas** e em **analisar desempenho** (tempo de execução e uso de memória) com **visualização em gráfico ASCII**.
